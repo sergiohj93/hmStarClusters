@@ -10,7 +10,7 @@ from cosmoHammer.pso.ParticleSwarmOptimizer import Particle
 #from cosmoHammer.util.MpiUtil import mpiMean,mpiBarrier,mpiBCast
 from cosmoHammer import LikelihoodComputationChain
 
-from LogPosteriorParallel import LogPosteriorModule
+from LogPosteriorCuda_0 import LogPosteriorModule
 from ContextSpline import CoreModule
 #########NOTES #######################
 # CosmoHammer has been modified in the following aspects
